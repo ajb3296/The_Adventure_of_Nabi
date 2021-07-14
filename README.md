@@ -1,9 +1,9 @@
 The Adventure of Nabi
 ===============
 
-Original code : [Github](https://github.com/sourabhv/FlapPyBird)
-이 게임은 아오이 나비([Youtube](https://www.youtube.com/channel/UCzKkwB84Y0ql0EvyOWRSkEw), [Twitch](https://www.twitch.tv/nabinya))를 위한 팬게임입니다.
-라이선스는 MIT 라이선스지만 이는 **코드 한정** 으로 적용됩니다.
+Original code : [Github](https://github.com/sourabhv/FlapPyBird)<br>
+이 게임은 아오이 나비([Youtube](https://www.youtube.com/channel/UCzKkwB84Y0ql0EvyOWRSkEw), [Twitch](https://www.twitch.tv/nabinya))를 위한 팬게임입니다.<br>
+라이선스는 MIT 라이선스지만 이는 **코드 한정** 으로 적용됩니다.<br>
 사용된 일러스트는 [이곳](https://twitter.com/kakasiy2/status/1414476753922183172?s=20) 에서 확인할 수 있으며 개발을 위한 [허가](https://twitter.com/ajb_3296/status/1414970207576018944?s=20) 는 받았습니다.
 
 
