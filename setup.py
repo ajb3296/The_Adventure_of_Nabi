@@ -23,18 +23,19 @@ if platform.system() == "Darwin":
     )
 
 elif platform.system() == "Windows":
+    
     import py2exe
+    import py2exe.build_exe
 
-    origIsSystemDLL = py2exe.build_exe.isSystemDLL
     def isSystemDLL(pathname):
         dlls = ("libfreetype-6.dll", "libogg-0.dll", "sdl_ttf.dll")
         if os.path.basename(pathname).lower() in dlls:
             return 0
-        return origIsSystemDLL(pathname)
+        return py2exe.build_exe.isSystemDLL(pathname)
     py2exe.build_exe.isSystemDLL = isSystemDLL
 
     sys.argv.append('py2exe')
-
+    
     setup(
         name =    'The Adventure of Nabi',
         version = '1.0',
@@ -46,6 +47,10 @@ elif platform.system() == "Windows":
                 'compressed': True,
             }
         },
+        data_files = [
+            ('assets/audio', glob.glob('assets/audio/*.*')),
+            ('assets/sprites', glob.glob('assets/sprites/*.*')),
+        ],
 
         windows = [{
             'script': "nabi.py",
