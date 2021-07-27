@@ -1,7 +1,7 @@
 The Adventure of Nabi
 ===============
 
-![GitHub release (latest by date and asset)](https://img.shields.io/github/downloads/ajb3296/The_Adventure_of_Nabi/latest/The%20Adventure%20of%20Nabi%201.0?style=flat-square)
+![GitHub release (latest by date)](https://img.shields.io/github/downloads/ajb3296/The_Adventure_of_Nabi/latest/total?style=flat-square)
 
 Original code : [Github](https://github.com/sourabhv/FlapPyBird)<br>
 이 게임은 아오이 나비([Youtube](https://www.youtube.com/channel/UCzKkwB84Y0ql0EvyOWRSkEw), [Twitch](https://www.twitch.tv/nabinya))를 위한 팬게임입니다.<br>
