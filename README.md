@@ -45,5 +45,7 @@ ScreenShot
 
 ![The Adventure of Nabi](screenshot1.png)
 
+![성공한 덕후 인증샷](Screenshot_20210826-035439.jpg)
+
 [pygame]: http://www.pygame.org
 [pipenv]: https://pipenv.readthedocs.io/en/latest/
